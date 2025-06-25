@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact</title>
+  <style>
+    body {
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .banner {
+      background-image: url("banner.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      width: 100%;
+    }
+    .menu {
+      background-color:#2c3e50;
+      padding: 10px;
+      text-align: center;
+    }
+    .menu a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    .menu a:hover {
+       color: #16a085;
+    }
+    .content {
+      background-color: #ffffff;
+      margin: 30px auto;
+      padding: 20px;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      color: #008080;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    ul li b {
+      display: inline-block;
+      width: 80px;
+    }
+    .contact-form {
+      margin-top: 20px;
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .contact-form input[type="text"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .contact-form button {
+      background-color: #008080;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .footer {
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      text-align: center;
+      padding: 12px 0;
+      font-size: 12px;
+      width: 100%;
+    }
+
+    /* 👇 Fix for matching TikTok & Instagram link color */
+    a[href*="tiktok.com"],
+    a[href*="instagram.com"] {
+      color: blue;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="menu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="hobbies.html">Hobbies</a>
+  <a href="favourite_game.html">Favourite Game</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div class="content">
+  <h2>Contact Me</h2>
+  <ul>
+    <li><b>Name:</b> Muhammad Iqbal Bin Suhaimi</li>
+    <li><b>Email:</b> <a href="mailto:muhamiqbal1608@gmail.com">muhamiqbal1608@gmail.com</a></li>
+    <li><b>Phone:</b> +6016-8515786</li>
+    <li><b>Address:</b> No.140B Kampung Parit Panjang, 09200 Baling, Kedah</li>
+  </ul>
+
+  <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@labqi618">@labqi618</a></p>
+  <p><strong>Instagram:</strong> <a href="https://www.instagram.com/m.iqb42/">@m.iqb42</a></p>
+
+  <form class="contact-form" action="mailto:yourname@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+<div class="footer">
+  &copy; 2025 Iqbal | Last updated: June 25, 2025 | Recommended Browser: Chrome, Firefox, Edge | Best View: 1920x1080 or higher
+</div>
+
+</body>
+</html>
